@@ -1,0 +1,7 @@
+rm -rf Meloncoin-Qt.app
+rm -f Meloncoin-Qt.temp.dmg
+rm -rf build
+rm -rf dist
+rm -f Makefile
+rm -f qrc_bitcoin.cpp
+

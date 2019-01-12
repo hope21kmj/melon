@@ -1,0 +1,44 @@
+src/*.exe
+src/meloncoin
+src/meloncoind
+src/test_meloncoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.meloncoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+meloncoin-qt
+Meloncoin-Qt.app
+
+# Unit-tests
+Makefile.test
+meloncoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+
+.qmake.stash
+Info.plist
+Meloncoin-Qt.xcodeproj
+dist/
+*.dmg
+
+# Output of contrib/check-upstream.sh
+merge-*.txt
+
